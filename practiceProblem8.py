@@ -6,4 +6,7 @@ should compute and display the total weight of the order.
 """
 w = 75
 g = 112
-x= input("Enter the weight of widgets") 
+y= input("Enter your name: ")
+x= int(input("Enter the weight of widgets: "))
+z = ((x*w) + (x*g))
+print( str(z) + " is the total weight of your order " + y)
